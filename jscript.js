@@ -1,5 +1,6 @@
 // // // //Let                   Var(never use)                 Const
 
+
 // // // //Let           BlockScope       Const
 
 // // // let userId = 23443
@@ -23,7 +24,7 @@
 
 // // console.log(a)
 
-// // let course ="Hitesh"
+// // let course ="Ahmad"
 
 // // console.log(course)
 
@@ -55,9 +56,9 @@
 // console.log(typeof valueInNumber)
 
 /*****************Operation********** */
-let value = 3
-let negValue = -value
-console.log(negValue)
+// let value = 3
+// let negValue = -value
+// console.log(negValue)
 //console.log(2+2)
 //console.log(2-2)
 //console.log(2*2)
@@ -67,3 +68,50 @@ console.log(negValue)
 
 //Basic operations we use in our daily life!
 
+/********comparison********** */
+
+//Clean code is a good code!
+
+// let name = "Ahmad"
+// let myName = "Muhammad"
+
+// console.log(name <= myName)
+
+// console.log(null > 0)
+// console.log(undefined >=0)
+// console.log(true ==0)
+// console.log("" ==
+//  0) 
+
+// console.log("1" + 2 + 2)
+
+/****************DataTypes */
+
+// Primitive datatypes
+
+// let number = 23
+// let number1;
+// let l = true;
+// let bigNumber = 28839992889833;    //BigInt , strings , Boolean , Numbers , Null , Undefined , Symbol
+// let symNumber = Symbol('234')
+// let  myName = "Ahmad"
+// let isMyName = null;
+
+// Non primitive dataTypes
+
+//Arrays , objects , Functions 
+let heros = ["Shan" , "Hairs Raouf" , "Ahmad"];
+
+let obj = {
+    name : "Ahmad",
+    age : 22,
+    userId : 4446,
+}
+
+console.log(obj)
+
+let func = function(){
+    console.log("Hello world")
+}
+
+console.log(func);
